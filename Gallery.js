@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const anchor = document.createElement("a");
         anchor.setAttribute("href", `#image-${i}`);
         const image = document.createElement("img");
-        image.setAttribute("src", `images/thumbs/thumbsCeramicas/${i}.jpg`);
+        image.setAttribute("src", `images/thumbs/thumbsceramicas/${i}.jpg`);
         image.setAttribute("alt", `image${i}`);
         const span = document.createElement("span");
         span.textContent = `Photo ${i}`;
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         closeButton.classList.add("lb-close");
         closeButton.textContent = "x Cerrar";
         const fullImage = document.createElement("img");
-        fullImage.setAttribute("src", `images/full/fullCeramicas/${i}.jpg`);
+        fullImage.setAttribute("src", `images/full/fullceramicas/${i}.jpg`);
         fullImage.setAttribute("alt", `image${i}`);
         fullImage.classList.add("full-image"); // Agrega una clase para aplicar estilos
         const div = document.createElement("div");
